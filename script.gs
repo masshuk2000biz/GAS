@@ -126,7 +126,7 @@ function sendLineAtt(strSubject,attachments){
 
   var formData = {
    'message' : "\n" + strSubject,
-   'imageFile': attachments  // 画像を添付のつもり
+   'imageFile': attachments  // 画像を添付
    }
   var options =
    {
